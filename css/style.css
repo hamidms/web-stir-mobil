@@ -131,7 +131,7 @@ body {
     color: #fff;
     background: linear-gradient(160deg, var(--sc-color), var(--pr-color));
     border: 1px solid var(--pr-color);
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.2);;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.2);
 }
 
 #schedule .card:hover span {
@@ -239,3 +239,30 @@ body {
     padding: 0;
 }
 
+/* Car Section */
+#car h4 {
+    font-weight: 600;
+}
+
+#car .card:hover {
+    background-color: #f8f8f8;
+    border: 1px solid var(--pr-color);
+}
+
+#car .card:hover p {
+    color: var(--pr-color);
+}
+
+#car .card .rounded-pill {
+    background-color: var(--pr-color)!important;
+}
+
+#car .btn-car {
+    background-color: var(--bl-color);
+    color: #ffffff;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
