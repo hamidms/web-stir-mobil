@@ -38,6 +38,10 @@ body {
     font-weight: 500;
 }
 
+.navbar .nav-link {
+    color: var(--th-color)!important;
+}
+
 .navbar .active {
     font-weight: 500;
     color: var(--pr-color)!important;
@@ -132,4 +136,36 @@ body {
 
 #schedule .card:hover span {
     color: #fff;
+}
+
+
+/* Package Section */
+#package .card {
+    border-radius: 10px;
+}
+
+#package .card span {
+    font-size: 81px;
+    font-weight: 500;
+}
+
+#package .list-feature {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#package .list-group {
+    border-radius: 0 0 10px 10px;
+}
+
+#package .card:hover {
+    color: #fff;
+    background: linear-gradient(160deg, var(--sc-color), var(--pr-color));
+    border: 1px solid var(--pr-color);
+    box-shadow: 0 0 7px 4px rgba(0, 0, 0, 0.2);;
+}
+
+#package .card:hover .list-group-item {
+    color: #fff;
+    background-color: var(--bl-color);
 }
