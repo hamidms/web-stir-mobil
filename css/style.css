@@ -169,3 +169,73 @@ body {
     color: #fff;
     background-color: var(--bl-color);
 }
+
+/* Card Trainer */
+
+.button-trainer {
+    width: 238px;
+    height: 63px;
+    background-color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#trainer h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.card-trainer h5 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.card-trainer p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.card-trainer button {
+    background-color: var(--pr-color);
+    color: #ffffff;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.card-trainer .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-trainer .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.button-arrow-left {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--pr-color);
+    padding: 0;
+}
+
+.button-arrow-right {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--pr-color);
+    padding: 0;
+}
+
