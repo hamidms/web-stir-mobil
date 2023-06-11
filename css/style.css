@@ -1,6 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #7a7a7a;
+    /* background-color: var(--lg-color); */
+}
+
+:root {
+    --pr-color : #DB5C01;
+    --sc-color : #F8A73F;
+    --th-color : #CBB796;
+    --bl-color : #1B1612;
+    --lg-color : #99998F;
 }
 
 .btn-secondary {
@@ -8,6 +16,13 @@ body {
     font-weight: 600;
     background: #FFFFFF;
     border-radius: 8px;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    font-weight: 600;
+    background: var(--pr-color);
+    border: 2px solid var(--sc-color);
 }
 
 * {
@@ -25,6 +40,11 @@ body {
 
 .navbar .active {
     font-weight: 500;
+    color: var(--pr-color)!important;
+}
+
+.navbar .nav-link:hover {
+    color: var(--sc-color)!important;
 }
 
 .navbar .btn-secondary {
@@ -63,4 +83,53 @@ body {
 #hero .btn-secondary {
     width: 200px;
     height: 50px;
+}
+
+#hero span {
+    color: var(--sc-color);
+}
+
+#hero h1:hover span {
+    color: var(--pr-color);
+}
+
+/* Schedule Section */
+
+#schedule {
+    padding: 100px 0;
+}
+
+#schedule h2 {
+    color: var(--bl-color);
+}
+
+#schedule .card {
+    padding: 30px;
+}
+
+#schedule .circle {
+    width: 85px;
+    height: 85px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#schedule .schedule-title span {
+    color: var(--pr-color);
+}
+
+#schedule .schedule-title:hover span {
+    color: var(--sc-color);
+}
+
+
+#schedule .card:hover {
+    color: #fff;
+    background: linear-gradient(160deg, var(--sc-color), var(--pr-color));
+    border: 1px solid var(--pr-color);
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.2);;
+}
+
+#schedule .card:hover span {
+    color: #fff;
 }
