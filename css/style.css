@@ -247,10 +247,12 @@ body {
 #car .card:hover {
     background-color: #f8f8f8;
     border: 1px solid var(--pr-color);
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 #car .card:hover p {
     color: var(--pr-color);
+    
 }
 
 #car .card .rounded-pill {
@@ -258,6 +260,22 @@ body {
 }
 
 #car .btn-car {
+    background-color: var(--bl-color);
+    color: #ffffff;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Contact Section */
+#contact span {
+    font-weight: 600;
+    display: inline-block;
+}
+
+.btn-send {
     background-color: var(--bl-color);
     color: #ffffff;
     border: none;
