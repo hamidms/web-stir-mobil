@@ -34,6 +34,15 @@ body {
     z-index: 3;
 }
 
+.bg-navbar {
+    background-color: var(--bl-color);
+    transition: all ease-in-out .5s;
+}
+
+.navbar .bg-transparent {
+    transition: all ease-in-out .5s;
+}
+
 .navbar-brand {
     font-weight: 500;
 }
@@ -252,7 +261,6 @@ body {
 
 #car .card:hover p {
     color: var(--pr-color);
-    
 }
 
 #car .card .rounded-pill {
@@ -293,3 +301,50 @@ footer {
 footer span {
     font-weight: 600;
 }
+
+footer .social-media img {
+    height: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    /* Gaya CSS untuk layar desktop */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Gaya CSS untuk perangkat tablet */
+    #schedule .card {
+        margin-bottom: 15px;
+    }    
+}
+  
+@media screen and (max-width: 767px) {
+    /* Gaya CSS untuk perangkat ponsel */
+    #hero h1 {
+        font-size: 44px;
+        font-weight: 600;
+        display: inline-block;
+        white-space: normal;
+        line-height: 56px;
+        margin-bottom: 20px;
+    }
+
+    #schedule .card {
+        margin-bottom: 15px;
+    }
+
+    #car .card {
+        
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-container ul {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+  
